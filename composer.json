@@ -1,0 +1,13 @@
+{
+  "name": "christianbaltazar/wp-simple-notify",
+  "description": "A simple WP plugin to email handle notifications",
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "SimpleNotify\\": "src/"
+    }
+  }
+}
